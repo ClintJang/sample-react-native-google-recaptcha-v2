@@ -4,9 +4,9 @@
 
 여기서는 `reCaptcha V2`에 문제점을 확인하고 간단하게 셈플링을 했습니다.
 
-무료로 이용하는 reCaptcha 감사합니다. 🙇‍
+무료로 이용하는 Google reCaptcha 감사합니다. 🙇‍
 
-- [recaptcha 란 무엇인가요? wiki link](https://ko.wikipedia.org/wiki/ReCAPTCHA) 
+- [recaptcha 란 무엇인가요? wiki Link](https://ko.wikipedia.org/wiki/ReCAPTCHA) 
 - [Google reCaptcha V2 Link](https://developers.google.com/recaptcha/docs/display)
 - [Google reCaptcha V3 Link](https://developers.google.com/recaptcha/docs/v3) 
 
@@ -18,9 +18,9 @@
 - 라이브러리 링크 : [react-native-recaptcha-v3](https://www.npmjs.com/package/react-native-recaptcha-v3)
 
 #  reCaptcha v2
-`reCaptcha v2`를 react native에서 바로 사용하게 해주는 라이브러리는 없는 것으로 보여집니다.
+`reCaptcha v2`를 react native에서 바로 사용하게 해주는 라이브러리는 **없는 것**으로 보여집니다.
 
-webview로 래핑을 해서 사용해야 됩니다.
+**webview를 이용해서 적용해야**해야 됩니다.
 
 ## 네이티브 라이브러리
 reCaptcha v2를 native level로 만들어진 라이브러리 링크 입니다.
@@ -28,7 +28,7 @@ reCaptcha v2를 native level로 만들어진 라이브러리 링크 입니다.
 - iOS : [ReCaptcha
 Swift](https://github.com/fjcaetano/ReCaptcha
 Swift) 로 되어있으며 swift와 rxswift 를 지원합니다.
-	- 사진 선택할때와 아닐때를 보여줍니다. (이건 저희가 컨트롤이 안되네요.)
+	- 사진 선택할때와 아닐때를 보여줍니다. (이건 컨트롤이 안되네요.)
 
 ## 샘플링
 > 간단한 셈플링입니다. 실제라면 웹 도메인 사이트를 정상적으로 설정하고, 거기에 따른 회사 계정으로 발급된 키를 가지고 해야되겠지만...<br />
@@ -47,7 +47,7 @@ Swift) 로 되어있으며 swift와 rxswift 를 지원합니다.
 | <img width="270" height="480" src="/Image/error_site_key01.jpeg"> | <img width="268" height="480" src="/Image/site_key_good01.gif"> |
 
 
-- `App.js`의 소스입니다.
+- `App.js`의 소스입니다.  (siteKey:"your site key!!" 는 수정하셔야됩니다.)
 
 ```react
 /**
