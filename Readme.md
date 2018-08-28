@@ -32,7 +32,8 @@ Swift) 로 되어있으며 swift와 rxswift 를 지원합니다.
 
 ## 샘플링
 > 간단한 셈플링입니다. 실제라면 웹 도메인 사이트를 정상적으로 설정하고, 거기에 따른 회사 계정으로 발급된 키를 가지고 해야되겠지만...<br />
-우리는 localhost로 개인 계정으로 키 발급 받아서 테스트 해보면 됩니다. 
+우리는 localhost로 개인 계정으로 키 발급 받아서 테스트 해보면 됩니다. <br />
+가끔 사진을 체크해야될 경우와 그렇치 않은 경우를 git 이미지로 결과 화면을 준비하였습니다. (사진 선택 안하면 안되나요~~~~ㅋ)
 
 - `CRNA` 로 하지않고, `react-native` `쉘 커맨드`로 테스트 하였습니다.
 
@@ -41,7 +42,10 @@ Swift) 로 되어있으며 swift와 rxswift 를 지원합니다.
 - keys에서 발급된 Site Key를 이용하시면됩니다.
 - 결과 화면입니다.
 
-.. 정리중.
+| The site key is incorrect | Validate 1 | Validate 2 |
+|------------------------------------------|:----------:|:----------:|
+| <img width="270" height="480" src="/Image/error_site_key01.jpeg"> | image 2 | image 3 | 
+
 
 - `App.js`의 소스입니다.
 
@@ -70,7 +74,7 @@ export default class App extends Component<Props> {
     super(props);
 
     this.state = {
-      siteKey:"6Lft1mwUAAAAALqM9TrElz2kYoiy5CRdH_lSocVg"
+      siteKey:"your site key!!"
    };
  }
 
