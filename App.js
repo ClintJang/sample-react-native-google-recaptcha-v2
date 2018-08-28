@@ -22,7 +22,7 @@ export default class App extends Component<Props> {
     super(props);
 
     this.state = {
-      siteKey:"your site key!!"
+      siteKey:"6Lft1mwUAAAAALqM9TrElz2kYoiy5CRdH_lSocVg"
    };
  }
 

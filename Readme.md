@@ -42,9 +42,9 @@ Swift) 로 되어있으며 swift와 rxswift 를 지원합니다.
 - keys에서 발급된 Site Key를 이용하시면됩니다.
 - 결과 화면입니다.
 
-| The site key is incorrect | Validate 1 | Validate 2 |
-|------------------------------------------|:----------:|:----------:|
-| <img width="270" height="480" src="/Image/error_site_key01.jpeg"> | image 2 | image 3 | 
+| The site key is incorrect | Validate Good Site Key |
+|------------------------------------------|:----------:|
+| <img width="270" height="480" src="/Image/error_site_key01.jpeg"> | <img width="268" height="480" src="/Image/site_key_good01.gif"> |
 
 
 - `App.js`의 소스입니다.
