@@ -29,14 +29,15 @@ reCaptcha v2를 native level로 만들어진 라이브러리 링크 입니다.
 Swift](https://github.com/fjcaetano/ReCaptcha
 Swift) 로 되어있으며 swift와 rxswift 를 지원합니다.
 	- 사진 선택할때와 아닐때를 보여줍니다. (이건 컨트롤이 안되네요.)
+- android : [safetynet](https://developer.android.com/training/safetynet/recaptcha) 서비스를 지원합니다. 가이드 문서를 참고 해 보시면 좋을 것 같습니다. 
 
-## 샘플링
+## 샘플링 
 > 간단한 셈플링입니다. 실제라면 웹 도메인 사이트를 정상적으로 설정하고, 거기에 따른 회사 계정으로 발급된 키를 가지고 해야되겠지만...<br />
 우리는 localhost로 개인 계정으로 키 발급 받아서 테스트 해보면 됩니다. <br />
 가끔 사진을 체크해야될 경우와 그렇치 않은 경우를 git 이미지로 결과 화면을 준비하였습니다. (사진 선택 안하면 안되나요~~~~ㅋ)
 
 ### 만약 처음이시라면
-- [React-Native 시작하기](https://medium.com/@jang.wangsu/rn-react-native-%EC%8B%9C%EC%9E%91-3aab881f574f) : 셈플소스는 해당 링크에스 react-native 쉘 커멘트로 구현하는 방법으로 테스트 했습니다. 가이드 대로 필요한 패키지 메니저는 설치가 되어있어야 됩니다.
+- [React-Native 시작하기](https://medium.com/@jang.wangsu/rn-react-native-%EC%8B%9C%EC%9E%91-3aab881f574f) : 셈플소스는 해당 링크에서 `react-native` 쉘 커멘트로 구현하는 방법으로 테스트 했습니다. 가이드 대로 필요한 패키지 메니저는 설치가 되어있어야 됩니다.
 - 그리고 이 셈플 소스의 루트 디렉토리에서 install 명령어를 실행합니다.
 
 	``` 
@@ -179,5 +180,5 @@ Scanning folders for symlinks in /Users/clintjang/Documents/RNTest/react-native/
 ```
 
 
-개발하시느라 고생 많으십니다.
-즐거운 하루 되세요 :)
+개발하시느라 고생 많으십니다. <br />
+좋은 하루되세요. 🙇
