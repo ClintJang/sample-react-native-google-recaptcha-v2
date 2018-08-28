@@ -35,11 +35,36 @@ Swift) 로 되어있으며 swift와 rxswift 를 지원합니다.
 우리는 localhost로 개인 계정으로 키 발급 받아서 테스트 해보면 됩니다. <br />
 가끔 사진을 체크해야될 경우와 그렇치 않은 경우를 git 이미지로 결과 화면을 준비하였습니다. (사진 선택 안하면 안되나요~~~~ㅋ)
 
+### 만약 처음이시라면
+- [React-Native 시작하기](https://medium.com/@jang.wangsu/rn-react-native-%EC%8B%9C%EC%9E%91-3aab881f574f) : 셈플소스는 해당 링크에스 react-native 쉘 커멘트로 구현하는 방법으로 테스트 했습니다. 가이드 대로 필요한 패키지 메니저는 설치가 되어있어야 됩니다.
+- 그리고 이 셈플 소스의 루트 디렉토리에서 install 명령어를 실행합니다.
+
+	``` 
+	$ npm install 
+	```
+
+- 위 과정을 다하시면 실행은 2가지 방법으로 실행 할 수 있습니다. 
+	1. iOS 폴더에서 SampleRecaptchaV2.xcodeproj 를 실행해서 실행합니다.
+	2. 쉘 명령어로 실행합니다.
+		- step 1
+		
+		```
+		$ react-native start
+		```
+		- step 2
+		
+		```
+		$ react-native run-ios
+		```
+		
+### 진행
 - `CRNA` 로 하지않고, `react-native` `쉘 커맨드`로 테스트 하였습니다.
 
 - [키발급 링크](http://www.google.com/recaptcha/admin) : 링크에서 v2를 선택하고 localhost를 선택하였습니다.
 <br/><img width="611" height="460" src="/Image/register_new_site01.png"></img>
 - keys에서 발급된 Site Key를 이용하시면됩니다.
+
+### 결과 
 - 결과 화면입니다.
 
 | The site key is incorrect | Validate Good Site Key |
