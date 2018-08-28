@@ -32,10 +32,15 @@ Swift) 로 되어있으며 swift와 rxswift 를 지원합니다.
 > 간단한 셈플링입니다. 실제라면 웹 도메인 사이트를 정상적으로 설정하고, 거기에 따른 회사 계정으로 발급된 키를 가지고 해야되겠지만...<br />
 우리는 localhost로 개인 계정으로 키 발급 받아서 테스트 해보면 됩니다. 
 
-- [키발급 링크](http://www.google.com/recaptcha/admin) : 링크에서 v2를 선택하고 localhost를 선택합니다.
+- CRNA 로 하지않고, react-native 쉡 커맨드로 테스트 하였습니다.
+
+- [키발급 링크](http://www.google.com/recaptcha/admin) : 링크에서 v2를 선택하고 localhost를 선택하였습니다.
 <br/><img width="611" height="460" src="/Image/register_new_site01.png"></img>
 - keys에서 발급된 Site Key를 이용하시면됩니다.
-		
+- 결과 화면입니다.
+
+.. 정리중.
+
 - App.js의 소스입니다.
 
 ```react
@@ -111,3 +116,37 @@ const styles = StyleSheet.create({
 });
 
 ```
+
+- 궁금하진 않겠지만.. 개발환경 입니다. 
+
+```
+$ react-native info
+Scanning folders for symlinks in /Users/clintjang/Documents/RNTest/react-native/SampleRecaptchaV2/node_modules (13ms)
+
+  React Native Environment Info:
+    System:
+      OS: macOS High Sierra 10.13.6
+      CPU: x64 Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+      Memory: 32.00 MB / 16.00 GB
+      Shell: 3.2.57 - /bin/bash
+    Binaries:
+      Node: 10.9.0 - /usr/local/bin/node
+      Yarn: 1.9.4 - /usr/local/bin/yarn
+      npm: 6.2.0 - /usr/local/bin/npm
+    SDKs:
+      iOS SDK:
+        Platforms: iOS 11.4, macOS 10.13, tvOS 11.4, watchOS 4.3
+    IDEs:
+      Android Studio: 3.1 AI-173.4907809
+      Xcode: 9.4.1/9F2000 - /usr/bin/xcodebuild
+    npmPackages:
+      react: 16.4.1 => 16.4.1 
+      react-native: 0.56.0 => 0.56.0 
+    npmGlobalPackages:
+      create-react-native-app: 1.0.0
+      react-native-cli: 2.0.1
+```
+
+
+개발하시느라 고생 많으십니다.
+즐거운 하루 되세요 :)
