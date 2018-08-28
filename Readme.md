@@ -45,7 +45,7 @@ Swift) 로 되어있으며 swift와 rxswift 를 지원합니다.
 	```
 
 - 위 과정을 다하시면 실행은 2가지 방법으로 실행 할 수 있습니다. 
-	1. iOS 폴더에서 SampleRecaptchaV2.xcodeproj 를 실행해서 실행합니다.
+	1. iOS 폴더에서 SampleRecaptchaV2.xcodeproj 를 실행해서 실행합니다. <br /> 또는 <br />
 	2. 쉘 명령어로 실행합니다.
 		- step 1
 		
