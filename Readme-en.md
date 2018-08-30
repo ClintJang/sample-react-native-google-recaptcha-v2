@@ -1,52 +1,48 @@
 # Sample React Native Google reCaptcha V2
 
-`Google reCaptcha V2`를 `React Native`에 `localhost`로 적용해서 확인해 보기위한 정도의 Sample Source 입니다.
+`Google ReCaptcha V2` to `React Native` `localhost` is a sample source to check enough to see.
 
-여기서는 `reCaptcha V2`를 React Native에 적용간 문제점을 확인하고 간단하게 셈플링을 했습니다.
+In this case, I tried to reCaptcha V2 to React Native, and it was simple to sample.
 
-무료로 이용하는 Google reCaptcha 감사합니다. 🙇‍
+Thank you for using Google reCaptcha for free. 🙇
 
-- [recaptcha 란 무엇인가요? wiki Link](https://ko.wikipedia.org/wiki/ReCAPTCHA) 
+- [What is recaptcha? wiki Link](https://ko.wikipedia.org/wiki/ReCAPTCHA) 
 - [Google reCaptcha V2 Link](https://developers.google.com/recaptcha/docs/display)
 - [Google reCaptcha V3 Link](https://developers.google.com/recaptcha/docs/v3) 
 
-(한국어로 된 RN 자료가 많아지길 희망합니다.)
-
 # reCaptcha v3
-> `reCaptcha v3`는 react native에서 바로 사용하게 해주는 라이브러리가 있습니다. 
+> `reCaptcha v3` has a library of react native.
 
-- 라이브러리 링크 : [react-native-recaptcha-v3](https://www.npmjs.com/package/react-native-recaptcha-v3)
+- Library link : [react-native-recaptcha-v3](https://www.npmjs.com/package/react-native-recaptcha-v3)
 
 #  reCaptcha v2
-`reCaptcha v2`를 react native에서 바로 사용하게 해주는 라이브러리는 **없는 것**으로 보여집니다.
+There seems **to be no library** that allows you to use the library link `reCaptcha v2` directly from react native.
 
-**webview를 이용해서 적용해야**해야 됩니다.
+You need to apply it **using webview**.
 
-## 네이티브 라이브러리
-reCaptcha v2를 native level로 만들어진 라이브러리 링크 입니다.
+## Native library
+reCaptcha v2 is a library link made to the native level.
 
 - iOS : [ReCaptcha
-Swift](https://github.com/fjcaetano/ReCaptcha)
-Swift로 되어있으며 swift와 rxswift 를 지원합니다.
-	- 사진 선택할때와 아닐때를 보여줍니다. (이건 컨트롤이 안되네요.)
-- android : [safetynet](https://developer.android.com/training/safetynet/recaptcha) 서비스를 지원합니다. 가이드 문서를 참고 해 보시면 좋을 것 같습니다. 
+Swift](https://github.com/fjcaetano/ReCaptcha),
+supports swift and rxswift.
+- android : The [safetynet](https://developer.android.com/training/safetynet/recaptcha) service is supported. Please refer to the guide document.
 
-## 샘플링 
-> 간단한 셈플링입니다. 실제라면 웹 도메인 사이트를 정상적으로 설정하고, 거기에 따른 회사 계정으로 발급된 키를 가지고 해야되겠지만...<br />
-우리는 localhost로 개인 계정으로 키 발급 받아서 테스트 해보면 됩니다. <br />
-가끔 사진을 체크해야될 경우와 그렇치 않은 경우를 git 이미지로 결과 화면을 준비하였습니다. (사진 선택 안하면 안되나요~~~~ㅋ)
+## Sampling 
+> Simple sampling.<br />
+We can test it by issuing a key to localhost as an individual account. <br />
 
-### 만약 처음이시라면
-- [React-Native 시작하기](https://medium.com/@jang.wangsu/rn-react-native-%EC%8B%9C%EC%9E%91-3aab881f574f) : 셈플소스는 해당 링크에서 `react-native` 쉘 커멘트로 구현하는 방법으로 테스트 했습니다. 가이드 대로 필요한 패키지 메니저는 설치가 되어있어야 됩니다.
-- 그리고 이 셈플 소스의 루트 디렉토리에서 install 명령어를 실행합니다.
+### If first time
+- [React-Native getting-started](https://facebook.github.io/react-native/docs/getting-started) : I tested the sample source by implementing it with the `react-native` shell comment on that link. You need to have the package manager installed as required by the guide.
+- Then run the install command from the root directory of this sample source.
 
 	``` 
 	$ npm install 
 	```
 
-- 위 과정을 다하시면 실행은 2가지 방법으로 실행 할 수 있습니다. 
-	1. iOS 폴더에서 SampleRecaptchaV2.xcodeproj 를 실행해서 실행합니다. <br /> 또는 <br />
-	2. 쉘 명령어로 실행합니다.
+- Once you have completed the process, you can run it in two ways.
+	1. Run "SampleRecaptchaV2.xcodeproj" in iOS folder and execute it. <br /> or <br />
+	2. Execute shell command.
 		- step 1
 		
 		```
@@ -59,21 +55,21 @@ Swift로 되어있으며 swift와 rxswift 를 지원합니다.
 		```
 		
 ### 진행
-- `CRNA` 로 하지않고, `react-native` `쉘 커맨드`로 테스트 하였습니다.
+- I tested it with the` react-native` shell command.
 
-- [키발급 링크](http://www.google.com/recaptcha/admin) : 링크에서 v2를 선택하고 localhost를 입력하였습니다.
+- [Key generation link](http://www.google.com/recaptcha/admin) : I selected v2 from the link and typed localhost.
 <br/><img width="611" height="460" src="/Image/register_new_site01.png"></img>
-- keys에서 발급된 Site Key를 이용하시면됩니다.
+- You can use Site Key issued from keys.
 
 ### 결과 
-- 결과 화면입니다.
+- The result screen.
 
 | The site key is incorrect | Validate Good Site Key |
 |------------------------------------------|:----------:|
 | <img width="270" height="480" src="/Image/error_site_key01.jpeg"> | <img width="268" height="480" src="/Image/site_key_good01.gif"> |
 
 
-- `App.js`의 소스입니다.  (siteKey:"your site key!!" 는 수정하셔야됩니다.)
+- It is the source of `App.js`. (`siteKey: "your site key !!"` Will be corrected.)
 
 ```react
 /**
@@ -149,7 +145,7 @@ const styles = StyleSheet.create({
 
 ```
 
-- 궁금하진 않겠지만.. 개발환경 입니다. 
+- development environment.
 
 ```
 $ react-native info
@@ -180,5 +176,4 @@ Scanning folders for symlinks in /Users/clintjang/Documents/RNTest/react-native/
 ```
 
 
-개발하시느라 고생 많으십니다. <br />
-좋은 하루되세요. 🙇
+Have a nice day. 🙇
