@@ -54,14 +54,14 @@ We can test it by issuing a key to localhost as an individual account. <br />
 		$ react-native run-ios
 		```
 		
-### 진행
+### Progress
 - I tested it with the` react-native` shell command.
 
 - [Key generation link](http://www.google.com/recaptcha/admin) : I selected v2 from the link and typed localhost.
 <br/><img width="611" height="460" src="/Image/register_new_site01.png"></img>
 - You can use Site Key issued from keys.
 
-### 결과 
+### Result 
 - The result screen.
 
 | The site key is incorrect | Validate Good Site Key |
