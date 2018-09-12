@@ -74,6 +74,8 @@ Swift로 되어있으며 swift와 rxswift 를 지원합니다.
 
 
 - `App.js`의 소스입니다.  (siteKey:"your site key!!" 는 수정하셔야됩니다.)
+- 이 셈플은 단순하게 로컬 호스트에서 기술 검증을 위해 확인용입니다.
+- [reCAPTCHA widget Examples](https://developers.google.com/recaptcha/docs/display) 들이 몇가지 더 있습니다. html내용을 바꿔가며 여러가지로 테스트 해보고, verifyCallback까지 받아보는 테스트를 해보는 것도 좋을 것 같습니다. 
 
 ```react
 /**
